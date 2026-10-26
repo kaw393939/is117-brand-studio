@@ -17,3 +17,5 @@ See the [starter review](validation.md) for release checks, coaching-simulation 
 The [full fresh-clone assignment walkthrough](student-walkthrough-2026-10-25.md) records the completed simulated trial, actual design/phone defects, and the resulting instruction fixes.
 
 The [passive-response coaching review](coaching-review-2026-10-25.md) tests repeated approval, delegation, assisted explanations, missing context and corrected summaries under the revised assessment approach.
+
+The [full coached trial and rubric calibration](full-coached-trial-2026-10-25.md) preserves a fresh-clone setup failure, browser reload verification, and an explicitly simulated worked assessment.

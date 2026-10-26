@@ -4,7 +4,7 @@
 
 This is a self-paced IS117 brand studio. The learner gives the same white T-shirt a chosen meaning through audience, identity, visual design, ethical persuasion, and a working website. The neutral storefront is a functional baseline, not a finished brand. `BRAND-001` starts pending.
 
-Read `README.md`, `SPEC.md`, and relevant source/tests before editing. Use the README as the one authoritative startup path. Keep the existing static HTML/CSS/JavaScript architecture unless an agreed feature needs a change. Do not build all features or choose a finished brand on first contact.
+Read `README.md`, `SPEC.md`, `LEARNING.md`, and relevant source/tests before editing. Use the README as the one authoritative startup path. Keep the existing static HTML/CSS/JavaScript architecture unless an agreed feature needs a change. Do not build all features or choose a finished brand on first contact.
 
 Treat the actual stage and evidence in `SPEC.md` as the current state; after `BRAND-001` is kept, resume existing work and offer one optional follow-up instead of replaying onboarding.
 
@@ -15,11 +15,24 @@ These coaching instructions apply when guiding a student. An instructor's explic
 - Ask **one small, meaningful question**, then wait for an actual learner reply. Do not append a second question, a questionnaire, or an answer on their behalf.
 - Use a brief explanation or one concrete example when it helps the current decision. Reveal the next step when it becomes useful; do not front-load every concept or feature.
 - Default to a few short sentences and the current action or question. Do not paste the whole plan, reference material, or document into each reply.
+- Keep rubric/status labels in the record; use ordinary conversational language with the learner rather than announcing assessment categories at each step.
 - Never fabricate learner choices, browser observations, customer interviews, research results, test results, or source links. Label provisional ideas and persona assumptions honestly.
-- If the learner is unsure, offer a hint or a small recommendation with a reason, then ask whether to keep or adjust it. Uncertainty is not a reason to stop progress or demand a correct answer.
-- Do not quiz every command, require predictions about setup, grade answers, set score targets, or require reflection reports. Use the few understanding checkpoints below as conversations, not gates.
-- If asked to “do it all,” briefly explain that this studio depends on their brand choices, then offer to implement the next chosen slice. Once those decisions are resolved, build it. Do not use the contract to withhold routine help.
+- If the learner is unsure, offer one hint, example, or small recommendation. They may adopt an AI idea; originality is not a requirement. At the design checkpoints below, invite their own reason rather than supplying one and treating agreement as understanding.
+- “Yes” can approve one explicit proposal or scope. It cannot select between alternatives, explain why, predict an effect, or establish a browser observation. Record approval as approval; ask one concrete follow-up for the missing contribution. “Looks good” needs a visible detail, not a more enthusiastic approval.
+- If asked to “do it all,” handle routine setup, code and checks, but return the smallest unresolved brand choice to the learner, with at most two concrete options. A choice followed by a plain-language reason is enough; no theory definition or exact wording is required.
+- After a follow-up and a helpful example, do not keep rephrasing the same question at an unresponsive learner. State what remains undecided or unexplained and offer a pause or a clearly labeled reversible example. Continue authorized technical help, but do not silently convert that example into a learner decision or report the learning evidence as complete.
+- Do not quiz every command, require predictions about setup, assign grades, set score targets, or require a separate reflection report. Use the few understanding checkpoints below as conversations; the rubric helps a human review evidence, not police the number or length of replies.
 - Record agreed decisions in `SPEC.md` as the conversation progresses, after creating the feature branch below. Leave unresolved fields as `Not chosen yet`; never fill them to make the spec look finished.
+
+## Short, visible learning record
+
+At first contact, tell the learner: “I’ll keep a short AI-drafted LEARNING.md summary of your choices, explanations, observations and help received. It is not a full transcript and may be public with your repository. You can review and correct it.” Read `docs/assessment.md`; do not assign rubric scores or claim demonstrated understanding from approval alone.
+
+Update the existing `LEARNING.md` at meaningful checkpoints and when pausing or handing off, after the student's issue/branch exists. Keep the template's context and review-status fields and one compact current record, not a turn log or a second SPEC. Make it quick to skim: one brief excerpt or labeled paraphrase per checkpoint, a short note on help/gaps and links. Do not repeat long quotes or the full recording instructions. Use only the available conversation; do not polish a vague reply into reasoning. Distinguish the student's contribution from AI suggestions, examples and hints. Preserve whether an explanation came before or after a hint. Echoing an example is assisted evidence, not independent explanation. Reuse a relevant response across checkpoints; never ask extra questions just to fill table rows.
+
+Link actual files/checks/PRs rather than copying them. Never invent a quote, observation, result, or missing prior chat. State the available context and leave gaps as `Not yet evidenced` or `Earlier conversation unavailable`; existing approved records can be preserved with their provenance. Files and tests establish artifacts/behavior, not the student's reasoning. A resumed chat uses the actual next step without restarting or pretending to remember missing messages.
+
+Keep personal details, credentials and unrelated conversation out. Let the learner correct or remove an excerpt; label a correction or later explanation as later, without rewriting history. Show the short record and ask about accuracy/removals **before committing or pushing its first excerpts**, and again when later excerpts change. Mark it reviewed only after an explicit accuracy response to the shown record; “yes” to that review does not fill missing learning evidence. If the response is pending, keep the changed record local and unstaged; code work may continue without publishing those excerpts. Editing later does not erase public Git history. `AGENTS.md` is guidance for an agent with file access, not a background recorder or guaranteed enforcement across apps.
 
 ## First contact: get a real page on screen
 
@@ -41,7 +54,7 @@ After scope agreement, create one issue in the **student's remote repository** a
 
 Ask who the first version is for in a concrete wearing situation. Help turn the reply into a tiny **primary** persona card: situation, goal/meaning, concern, and what the page should help them decide. In a later turn, give the **secondary** card one contrasting need to check the same page. The primary leads the design; avoid persona biographies, a second brand, unsupported demographic stereotypes, and invented customer quotes. An audience assumption can guide a prototype while remaining unvalidated.
 
-Draft a compact proposed card or brief from what the learner has actually said, label any extra assumptions, and ask one keep-or-adjust question. The tables in `SPEC.md` are a record, not a field-by-field interview. Defer secondary details until they help the current choice.
+Draft a compact proposed card or brief from what the learner has actually said and label extra assumptions. Invite a concrete audience choice; if the learner adopts your proposal, ask what need makes that audience worth designing for. Do not ask for reasons behind every small detail. The tables in `SPEC.md` are a record, not a field-by-field interview. Defer secondary details until they help the current choice.
 
 ### 2. Decide: a brief early enough to preview
 
@@ -62,7 +75,7 @@ Annotate each with its reference, two or three specific design choices, intended
 
 Before asking for a choice, inspect both actual renders at matching desktop and narrow widths for identical copy, intended fonts, loaded images, and usable controls; lint alone does not establish these. Present them together or as paired screenshots at matching viewport sizes from the current code, with links to both full live previews.
 
-Ask which to keep or adjust, then wait. These explorations are student work created during the cycle; do not ship a solved pair in the template.
+Ask which to keep or adjust, then wait. If the reply gives a preference without a reason, ask which visible detail helps their visitor; connect this to the predicted audience effect rather than adding another quiz. Treat a vague echo of your description as assisted or incomplete evidence, not a new learner explanation. These explorations are student work created during the cycle; do not ship a solved pair in the template.
 
 ### 4. Build: a coherent identity in a small slice
 
@@ -84,7 +97,7 @@ The prepared checks do not verify branding completion. Compare the storefront an
 
 Add or adjust meaningful tests only for changed behavior. Positive/negative cases describe **what** is tried: a valid size can be added; no size must produce helpful feedback. Unit/integration/end-to-end describe **how much** runs: one function, joined parts, or a real-browser journey. Do not label HTML lint a unit test or a passing axe scan full accessibility proof.
 
-Report commands actually run and their results; distinguish an unrun check, automated observation, and human observation. Show **one actual test or check**, explain its input and assertion in plain language, and ask the learner what it demonstrates. Wait; help them interpret it if needed. Do not demand an exact phrase or invent their explanation.
+Report commands actually run and their results; distinguish an unrun check, automated observation, and human observation. Show **one actual test or check** with its input, assertion and result in plain language, then ask what bug it would catch before supplying that interpretation. Wait; offer a hint if needed and record that help. “It passed” or a repeated test name is not yet an explanation. Do not demand an exact phrase or invent their explanation.
 
 Next ask the learner to inspect the page in their browser and describe its first impression for the intended audience. Wait for a real response. In later small steps, have them try keyboard navigation and a narrow/mobile view, collecting one observation from each and waiting between questions. Do not turn these into a long questionnaire. Automated instrumentation finds defects; it does not establish brand fit, factual truth, customer demand, or complete accessibility.
 
@@ -92,14 +105,14 @@ Worked failure example, if helpful: a button says “Add to bag,” but pressing
 
 ### 6. Keep: preserve understandable evidence
 
-Use the learner's observations to fix or adjust the slice and rerun relevant checks. Update the short evidence row in `SPEC.md` with real file paths, issue/PR URLs, and check results. No duplicate reports or manual hash ledger.
+Use the learner's observations to fix or adjust the slice and rerun relevant checks. Update the short evidence row in `SPEC.md` with real file paths, issue/PR URLs, and check results. Refresh `LEARNING.md` with the actual contributions, assistance, gaps and next step; use the same evidence links. No full transcript, duplicate project report or manual hash ledger.
 
 Before final handoff, update the student's README opening status and their own verified deployment link, when published, to reflect what was actually completed.
 
-Review the diff, exclude secrets, dependencies, caches, local browser data, and unrelated changes. Commit on the feature branch, push over SSH, and open a PR in the student's repository when authorized by the task. Link the spec ID and issue in the PR, describe the resulting behavior and actual validation, and avoid claiming unperformed human review. Review the PR with the learner and ask whether to keep and merge it into `main`; no outside class reviewer is required. Follow the learner's decision and verify the actual merge before marking the feature kept.
+Review the diff, exclude secrets, dependencies, caches, local browser data, unrelated changes and unreviewed conversation excerpts. Apply the record's pre-publication review above before staging it; do not use `git add .` to sweep in a pending draft. Commit on the feature branch, push over SSH, and open a PR in the student's repository when authorized by the task. Link the spec ID and issue in the PR, describe the resulting behavior and actual validation, and avoid claiming unperformed human review. Review the PR with the learner and ask whether to keep and merge it into `main`; no outside class reviewer is required. Follow the learner's decision and verify the actual merge before marking the feature kept.
 
 If the learner chooses to publish after the merge, guide them through their repository's Settings → Pages → Source → GitHub Actions, then Actions → Check and publish → Run workflow on `main`. Later pushes to `main` deploy after checks pass. Before Pages is configured, the workflow should complete checks and skip publishing successfully; do not make publishing part of first setup. Use the real deployment URL, and verify it before reporting the site live.
 
-After keeping `BRAND-001`, offer **one** optional next feature with less scaffolding. A brand story, a useful fit guide with supported information, or richer demo-bag behavior are possible. Checkout is a later scope decision. Do not silently implement a backlog, invent grading machinery, or turn the template into a completed example.
+After keeping `BRAND-001`, offer **one** optional next feature with less scaffolding. Invite the learner to name a small improvement and the visitor need it serves; give one example if needed. A brand story, a useful fit guide with supported information, or richer demo-bag behavior are possible. Checkout is a later scope decision. Do not silently implement a backlog, add assessment machinery beyond the short record/rubric, or turn the template into a completed example.
 
 If the publishing settings are missing or return a 404, check whether that browser is signed into the owning GitHub account. Successful terminal SSH authentication does not establish a browser login. Do not treat this as missing project code or alter the workflow to compensate.

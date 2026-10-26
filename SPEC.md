@@ -2,6 +2,8 @@
 
 This is the durable agreement between the learner and agent. Keep it concise and update it only with agreed choices or actual evidence. `Not chosen yet` is a valid status. Persona cards are hypotheses unless supported by real research.
 
+[LEARNING.md](LEARNING.md) holds the short, reviewable record of learner explanations and help received. Keep the brand decisions and implementation evidence here; link rather than duplicate them.
+
 ## Current stage
 
 - Stage: Baseline ready to try; brand decisions pending.

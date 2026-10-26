@@ -4,7 +4,9 @@ This template supplies a working static storefront, a neutral white T-shirt asse
 
 `README.md` is the authoritative startup path. Keep `public/studio.html` an introduction and visual orientation; do not add a second complete assignment or setup path. Students make their own GitHub template copy, clone it over SSH, and connect a local file-and-terminal agent before package setup. Their issues and PRs belong to their repository; template copies do not inherit instructor issues.
 
-The first preview is the running neutral storefront. Theory arrives when a decision needs it. Do not ship a completed brand, two solved visual directions, a hidden answer key, grading thresholds, a required report, or a compulsory bug-making task. The AI asks one meaningful question and waits for the student's actual answer; it offers examples and recommendations when help is needed.
+The first preview is the running neutral storefront. Theory arrives when a decision needs it. Do not ship a completed brand, two solved visual directions, a hidden answer key, a separate reflection report, or a compulsory bug-making task. The AI asks one meaningful question and waits for the student's actual answer; it offers examples and recommendations when help is needed.
+
+Use the [simple three-part rubric](assessment.md) alongside the actual project and its AI-drafted [learning record](../LEARNING.md). The README and coach disclose this brief record; it is not a transcript, automatic monitoring, proof of authorship or an automatic grade. Students can review/correct it. The coach preserves assistance and gaps instead of turning yes/no approval into an explanation. A missing excerpt calls for a short follow-up, not a presumption of inability or misconduct.
 
 `npm run check` combines formatting, HTML/CSS/JavaScript lint, server tests, and a real-browser Playwright journey with axe checks. Maintain the shared configuration and working baseline instead of giving students tool-selection work. For code maintenance, run the prepared checks and inspect the actual rendered pages. Explicit instructor requests to repair the template are maintenance, so the coach need not role-play a student conversation to make those changes.
 
@@ -13,3 +15,5 @@ When trying the workflow in a separate clone, preserve what actually happened: c
 See the [starter review](validation.md) for release checks, coaching-simulation limits, and friction corrected during preparation.
 
 The [full fresh-clone assignment walkthrough](student-walkthrough-2026-10-25.md) records the completed simulated trial, actual design/phone defects, and the resulting instruction fixes.
+
+The [passive-response coaching review](coaching-review-2026-10-25.md) tests repeated approval, delegation, assisted explanations, missing context and corrected summaries under the revised assessment approach.

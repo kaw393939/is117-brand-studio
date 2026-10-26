@@ -74,6 +74,8 @@ Apply the selected identity to the hero, navigation, product area, and useful in
 
 Agree **two** ethical Cialdini applications that serve the chosen visitor need; record the actual interface/copy, mechanism, and benefit. A useful free styling tip may express reciprocity. For consistency, explain the voluntary prior commitment and how the next action follows it; required size selection or validation alone does not qualify. Do not add a flow solely to fill a principle slot or claim proven conversion improvements. Never invent testimonials, sales counts, scarcity, credentials, sustainability, materials, fit, shipping, guarantees, or prices. Mark demo/sample information clearly or omit unsupported claims. Do not add pressure, hidden costs, or unwanted enrollment.
 
+Use this decision to move beyond yes/no approval: ask the learner to choose one proposed page element and explain how it helps their visitor. Wait for their own explanation before applying it. If the connection is vague, offer one concrete example and invite a small revision; do not require a theory definition or exact phrase. This replaces another keep-or-adjust question, rather than adding a quiz.
+
 ### 5. Check: AI first, then the learner
 
 Run `npm run check` and inspect the changed code, rendered page, responsive layout, shared style guide, logo variants, claims, links, and agreed scope. The prepared command includes formatting, HTML/CSS/JavaScript lint, server tests, and Playwright/axe checks in real Chromium. Use `npm run format` for formatting failures, then check again. If the browser binary is missing, explain and run `npm run setup:browser`, then retry. Fix lint/behavior failures in the source; do not lower rules or remove tests to get a pass.
@@ -99,3 +101,5 @@ Review the diff, exclude secrets, dependencies, caches, local browser data, and 
 If the learner chooses to publish after the merge, guide them through their repository's Settings → Pages → Source → GitHub Actions, then Actions → Check and publish → Run workflow on `main`. Later pushes to `main` deploy after checks pass. Before Pages is configured, the workflow should complete checks and skip publishing successfully; do not make publishing part of first setup. Use the real deployment URL, and verify it before reporting the site live.
 
 After keeping `BRAND-001`, offer **one** optional next feature with less scaffolding. A brand story, a useful fit guide with supported information, or richer demo-bag behavior are possible. Checkout is a later scope decision. Do not silently implement a backlog, invent grading machinery, or turn the template into a completed example.
+
+If the publishing settings are missing or return a 404, check whether that browser is signed into the owning GitHub account. Successful terminal SSH authentication does not establish a browser login. Do not treat this as missing project code or alter the workflow to compensate.

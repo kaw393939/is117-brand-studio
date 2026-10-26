@@ -74,6 +74,8 @@ Apply the selected identity to the hero, navigation, product area, and useful in
 
 Agree **two** ethical Cialdini applications that serve the chosen visitor need; record the actual interface/copy, mechanism, and benefit. A useful free styling tip may express reciprocity. For consistency, explain the voluntary prior commitment and how the next action follows it; required size selection or validation alone does not qualify. Do not add a flow solely to fill a principle slot or claim proven conversion improvements. Never invent testimonials, sales counts, scarcity, credentials, sustainability, materials, fit, shipping, guarantees, or prices. Mark demo/sample information clearly or omit unsupported claims. Do not add pressure, hidden costs, or unwanted enrollment.
 
+Use this decision to move beyond yes/no approval: ask the learner to choose one proposed page element and explain how it helps their visitor. Wait for their own explanation before applying it. If the connection is vague, offer one concrete example and invite a small revision; do not require a theory definition or exact phrase. This replaces another keep-or-adjust question, rather than adding a quiz.
+
 ### 5. Check: AI first, then the learner
 
 Run `npm run check` and inspect the changed code, rendered page, responsive layout, shared style guide, logo variants, claims, links, and agreed scope. The prepared command includes formatting, HTML/CSS/JavaScript lint, server tests, and Playwright/axe checks in real Chromium. Use `npm run format` for formatting failures, then check again. If the browser binary is missing, explain and run `npm run setup:browser`, then retry. Fix lint/behavior failures in the source; do not lower rules or remove tests to get a pass.

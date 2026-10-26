@@ -36,4 +36,6 @@ Computer Use verified the keyboard journey from Skip to content through size M a
 
 The walkthrough shows that the project can be completed and that its instructions can guide meaningful revisions. It cannot tell us whether actual students will make independent choices, find the outfit advice useful, or stay engaged. The short coaching path still depends on the agent honoring real pauses and offering a small example when the learner is unsure. A class pilot would test that assumption.
 
+In the final role-play debrief, the simulated learner said they could mostly react to AI proposals and keep saying yes without understanding the archetype or persuasion mechanism. The coach instructions now replace one yes/no approval with the learner's explanation of how an actual proposed element helps their visitor. That prompt can expose a weak connection; it does not itself establish understanding or transfer to the next feature.
+
 See the trial PR for actual merge, CI and publication evidence. The instructor fix is tracked in [issue #3](https://github.com/kaw393939/is117-brand-studio/issues/3).

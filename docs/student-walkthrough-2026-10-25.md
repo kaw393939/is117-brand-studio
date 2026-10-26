@@ -22,6 +22,8 @@ The sequence could produce persona hypotheses, a brand brief, two researched vis
 
 An image-access fallback was added so a caption cannot be mistaken for visual inspection. The starter's one-color logo preview now uses a flat black treatment rather than grayscale. None of these changes supplies a finished student brand.
 
+The final publishing check found that terminal Git was authenticated while the browser was signed out: the repository's Pages settings returned a 404. The README now explains the separate browser login. Publishing in this trial used the authenticated GitHub CLI; the signed-in settings UI was not verified.
+
 ## Checks and judgment did different jobs
 
 The fresh copy passed installation and all 13 baseline cases. The completed trial passed formatting/lint, four server integration cases and twelve Chromium cases. Additional checks covered the studies' matching offer, their working controls, rendered identity agreement between shop and guide, and the phone shopping flow.

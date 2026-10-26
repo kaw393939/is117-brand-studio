@@ -99,3 +99,5 @@ Review the diff, exclude secrets, dependencies, caches, local browser data, and 
 If the learner chooses to publish after the merge, guide them through their repository's Settings → Pages → Source → GitHub Actions, then Actions → Check and publish → Run workflow on `main`. Later pushes to `main` deploy after checks pass. Before Pages is configured, the workflow should complete checks and skip publishing successfully; do not make publishing part of first setup. Use the real deployment URL, and verify it before reporting the site live.
 
 After keeping `BRAND-001`, offer **one** optional next feature with less scaffolding. A brand story, a useful fit guide with supported information, or richer demo-bag behavior are possible. Checkout is a later scope decision. Do not silently implement a backlog, invent grading machinery, or turn the template into a completed example.
+
+If the publishing settings are missing or return a 404, check whether that browser is signed into the owning GitHub account. Successful terminal SSH authentication does not establish a browser login. Do not treat this as missing project code or alter the workflow to compensate.

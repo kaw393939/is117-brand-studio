@@ -769,7 +769,7 @@ legend {
 
 .logo-mono {
   width: 190px;
-  filter: grayscale(1);
+  filter: brightness(0);
 }
 
 .logo-variant p,

@@ -5,7 +5,7 @@ This is the durable agreement between the learner and agent. Keep it concise and
 ## Current stage
 
 - Stage: Baseline ready to try; brand decisions pending.
-- Current feature: `BRAND-001` — branded hero and visible identity.
+- Current feature: `BRAND-001` — first branded storefront and live style guide.
 - Status: Pending learner scope agreement.
 - Next small decision: Confirm the first slice after trying the neutral storefront.
 
@@ -14,6 +14,8 @@ This is the durable agreement between the learner and agent. Keep it concise and
 The product is the same white T-shirt throughout the comparison. The baseline offers a size selector and temporary demo bag. No real orders, payment, accounts, or persistence. Keep product facts stable between directions; do not add unsupported claims about materials, manufacturing, sustainability, fit, delivery, scarcity, reviews, or sales.
 
 ## Audience hypotheses
+
+The primary need guides the page. Give the secondary card one contrasting need to check that same page; keep both cards brief.
 
 | Tiny card                             | Primary audience          | Secondary audience        |
 | ------------------------------------- | ------------------------- | ------------------------- |
@@ -38,6 +40,8 @@ The product is the same white T-shirt throughout the comparison. The baseline of
 
 Compare two small hero previews before building the whole page. Hold the product, headline, supporting copy, and action identical. Use specific real design references and annotate visual choices, intended effect, and risk.
 
+A simple original SVG wordmark is enough. Show small-size and one-color presentations; they may use the same asset when it works.
+
 | Item                                              | Agreement or evidence |
 | ------------------------------------------------- | --------------------- |
 | Shared headline / support / action                | Not chosen yet        |
@@ -51,14 +55,14 @@ Compare two small hero previews before building the whole page. Hold the product
 
 ## Ethical persuasion
 
-Choose two applications that help the visitor make a voluntary, informed decision. Record their real implementation rather than a principle name alone. Do not invent social proof, scarcity, authority, or product facts.
+Choose two applications that help the visitor make a voluntary, informed decision. Record their real implementation and mechanism rather than a principle name alone. Required size selection or validation alone does not establish consistency. Do not invent social proof, scarcity, authority, or product facts.
 
 | Principle      | Actual copy or interaction | Visitor benefit / factual support |
 | -------------- | -------------------------- | --------------------------------- |
 | Not chosen yet | Not chosen yet             | Not chosen yet                    |
 | Not chosen yet | Not chosen yet             | Not chosen yet                    |
 
-## BRAND-001 — branded hero and visible identity
+## BRAND-001 — first branded storefront and live style guide
 
 **Scope:** turn the working neutral storefront into the chosen brand's first coherent page. Keep the existing size selector and demo bag usable. Do not add checkout or all future features.
 
@@ -66,11 +70,11 @@ Keep when:
 
 - The learner has chosen the audience hypotheses, brief, visual direction, and logo; the page visibly expresses those choices.
 - Two annotated hero directions compare modernist/postmodernist thinking with the same content and real source links.
-- The selected SVG logo has usable monochrome and small-size variants.
+- The selected SVG logo works at small size and in one color; the presentations may share one asset.
 - The storefront and live style guide share CSS variables, typography, components, and assets; they do not drift into separate identities.
 - Two ethical persuasion applications are visible and their claims are supportable.
 - Prepared checks pass, the agent has reviewed the slice and discussed one actual check, and the learner has reported a browser impression plus keyboard/mobile observations.
-- The issue, branch, commit, and PR explain this feature in the learner's repository; agreed decisions and actual evidence are saved here.
+- The issue, branch, commit, and PR explain this feature in the learner's repository; agreed decisions and actual evidence are saved here. The learner has approved keeping and merging the change, and the merge into `main` is verified. Publishing is a separate choice.
 
 ## Evidence
 

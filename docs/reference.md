@@ -4,7 +4,7 @@ You can start with the working page. Read a section when its decision comes up; 
 
 ## Audience and character
 
-A persona is a small, useful hypothesis about someone in a situation: what they want, what worries them, and what the page should help them decide. A primary card guides the first design; a secondary card helps you notice another need. Invented biography, demographic stereotypes, and fake quotes do not make either card more credible.
+A persona is a small, useful hypothesis about someone in a situation: what they want, what worries them, and what the page should help them decide. A primary card guides the first design; a secondary card supplies one contrasting need to check the same page. Keep both brief. Invented biography, demographic stereotypes, and fake quotes do not make either card more credible.
 
 A brand archetype describes the **brand's character**, not its customer's personality. A Sage brand might explain carefully; a Jester brand might use wit. Choose one primary character and translate it into three voice traits and actual copy. Treat the framework as a design lens, not a diagnosis or a guarantee of audience response. [Carol S. Pearson's account of the 12-archetype system](https://carolspearson.com/about/the-pearson-12-archetype-system-human-development-and-evolution) explains its development and the different names used for branding.
 
@@ -14,11 +14,13 @@ Modernism includes ideas about function, production, social progress, and rethin
 
 Look at actual objects and graphics in those sources. For example, the V&A's modernism article includes an Edward McKnight Kauffer drawing (1934) and a Christian Dell lamp (1929); its postmodernism article includes Martine Bedin's _Super_ lamp prototype (1981) and Ron Arad's _Concrete Stereo_ (1983). Study a specific arrangement, material idea, or use of reference. Translate an observed principle into a web composition; do not copy a work or flatten a movement into “plain versus bright.”
 
+If an image cannot be viewed, record that limit and choose another viewable primary museum/designer reference. Reading its caption does not establish that you inspected its composition.
+
 The studio comparison is controlled: **same white T-shirt, same headline, same supporting copy, same action**. Explain how typography, hierarchy, layout, image treatment, and reference change the meaning. A modernist direction can use strong color; a postmodernist direction can use a restrained palette. Both must work at small widths and remain readable.
 
 ## Persuasion that respects a visitor
 
-[Robert Cialdini's official overview](https://www.influenceatwork.com/7-principles-of-persuasion/) introduces reciprocity, scarcity, authority, consistency, liking, social proof, and unity. Choose two applications with a clear visitor benefit and an honest basis. A freely available useful tip could offer value; a voluntary choice can help a visitor take a consistent next step. These are design proposals, not measured conversion results.
+[Robert Cialdini's official overview](https://www.influenceatwork.com/7-principles-of-persuasion/) introduces reciprocity, scarcity, authority, consistency, liking, social proof, and unity. Choose two applications with a clear visitor benefit and an honest basis. A freely available useful tip could offer value through reciprocity. A consistency application needs a voluntary prior commitment and a next action that follows it; required size selection or validation alone is insufficient. Choose mechanisms that serve the visitor rather than adding a flow to fill a slot. These are design proposals, not measured conversion results.
 
 Do not make up reviews, customer counts, stock limits, countdowns, expert endorsements, or product claims. A white T-shirt illustration does not prove fabric composition or sustainability. If information is unknown, omit the claim or identify sample data clearly. A convincing page still owes the visitor truthful choices.
 

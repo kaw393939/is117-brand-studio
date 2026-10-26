@@ -11,3 +11,5 @@ The first preview is the running neutral storefront. Theory arrives when a decis
 When trying the workflow in a separate clone, preserve what actually happened: commands and results, the questions asked, where the agent waited, and real browser observations. Label agent-simulated learner answers as a **coaching simulation**. Such a trial can reveal broken setup, unclear prompts, pacing problems, and observed defects; it cannot demonstrate how actual students learn, validate persona assumptions, or establish customer response. Do not claim a trial ran until it did. Retire disposable trial repositories after preserving findings, and keep the active path pointed at the unfinished template.
 
 See the [starter review](validation.md) for release checks, coaching-simulation limits, and friction corrected during preparation.
+
+The [full fresh-clone assignment walkthrough](student-walkthrough-2026-10-25.md) records the completed simulated trial, actual design/phone defects, and the resulting instruction fixes.

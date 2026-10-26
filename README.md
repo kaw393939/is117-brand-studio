@@ -14,7 +14,7 @@ This template starts with a working, deliberately neutral storefront. Your audie
    cd REPOSITORY
    ```
 
-3. Open this cloned folder as a local project in ChatGPT desktop/Codex, or another AI agent that can **read and edit local files and run terminal commands**. A browser-only conversation cannot do the whole exercise. VS Code is optional; an editor extension or separate agent CLI is not required. Start one chat with:
+3. Select this cloned folder as the chat's local project in ChatGPT desktop/Codex, or another AI agent that can **read and edit local files and run terminal commands**. Have the agent report its current folder and Git remote before installing anything. A browser-only conversation cannot do the whole exercise. VS Code is optional; an editor extension or separate agent CLI is not required. Start one chat with:
 
    > Read AGENTS.md and SPEC.md. Help me get this running, then guide me through the brand studio one decision at a time.
 
@@ -28,12 +28,12 @@ If a command fails, paste the real error into the same chat. You can ask for a h
 
 The agent follows **Try → Decide → Build → Check → Keep**. It asks one small, meaningful question and waits for your answer. It should never invent your response or quietly choose your brand.
 
-1. **Try the baseline.** Agree on the first feature, `BRAND-001`: a branded hero and visible identity for this working storefront.
-2. **Decide who and why.** Make two tiny audience/persona cards, then an early brief: name, promise, one primary brand archetype, and three voice traits. These are hypotheses to revisit, not customer research. An archetype describes the brand's character, not a customer type.
+1. **Try the baseline.** Agree on the first feature, `BRAND-001`: first branded storefront and live style guide. Then have the agent open its issue and feature branch in **your repository**, before saving decisions or previews.
+2. **Decide who and why.** Make two tiny audience/persona cards: a primary need to guide the page and one contrasting secondary need to check it. Then make an early brief: name, promise, one primary brand archetype, and three voice traits. These are hypotheses to revisit, not customer research. An archetype describes the brand's character, not a customer type.
 3. **Compare two small previews.** See a modernist and a postmodernist hero using the **same product, headline, supporting copy, and action**. Each cites real design references and explains its visual decisions. Choose or adjust a direction before building the whole page.
-4. **Build the chosen slice.** Develop an original SVG logo with monochrome and small-size versions. Apply the selected identity to the storefront and the live style guide, sharing the same CSS variables and assets. Plan two truthful, useful applications of Cialdini's persuasion principles; do not invent reviews, scarcity, credentials, or product facts.
+4. **Build the chosen slice.** Develop an original SVG logo; a simple wordmark is enough. Show it at small size and in one color; the same SVG can serve each presentation if it works. Apply the selected identity to the storefront and live style guide, sharing CSS variables and assets. Plan two truthful, useful applications of Cialdini's persuasion principles; do not invent reviews, scarcity, credentials, or product facts.
 5. **Check together.** The agent runs the prepared checks and reviews its work first, shows one actual check, and asks you to explain what it demonstrates. Then inspect the page in your own browser: describe the impression, try the keyboard, and look at a narrow/mobile view. Ask for help if something is unclear.
-6. **Keep a change you understand.** Save agreed decisions in [SPEC.md](SPEC.md), connect the feature to an issue and pull request in **your repository**, and commit the checked change on its branch. Revise anything that misses the intended meaning before moving on.
+6. **Keep a change you understand.** Save agreed decisions and actual evidence in [SPEC.md](SPEC.md), commit the checked change on its branch, and review its pull request with the agent. Revise anything that misses the intended meaning. You decide when to keep and merge it into `main`; tell the agent your decision. No outside class reviewer is required.
 
 You work at your own pace. There is no required class demonstration, quiz, reflection report, or extra bug-making task. If you say “build it,” the agent can build the slice you have chosen; it still needs your browser observation before continuing.
 
@@ -56,10 +56,10 @@ The README is the authoritative startup path. The online overview introduces the
 
 Positive cases check intended behavior, such as adding a selected size. Negative cases check unsuitable input, such as trying to add without a size. These are different from test **levels**: unit checks focus on a small function, integration checks join parts, and end-to-end checks drive a user journey in a real browser.
 
-Checks can find defects and some accessibility barriers. They cannot prove that your audience will value the brand, that a claim is true, or that every person can use the site. Your own browser observation adds evidence; it does not stand in for customer research.
+Checks can find defects and some accessibility barriers. They do not verify that the page and guide express the same identity; compare their logo, typography, components, and voice in the browser. They cannot prove that your audience will value the brand, that a claim is true, or that every person can use the site. Your own browser observation adds evidence; it does not stand in for customer research.
 
 After `BRAND-001`, choose **one** next cycle with less guidance: perhaps a useful brand story, a fit guide with supported information, or a richer demo bag. A real checkout would be a separate project decision.
 
 ## Publish when you keep the site
 
-After your checked change is approved and merged into `main`, let the agent guide you through your repository's **Settings → Pages → Source → GitHub Actions**, then **Actions → Check and publish → Run workflow** on `main`. Open the deployment URL reported by that run. Later pushes to `main` publish automatically after checks pass. Until Pages is configured, the workflow checks the project and skips publishing successfully; first setup does not require deployment.
+After you approve keeping the checked change and it is merged into `main`, you can publish it. Let the agent guide you through your repository's **Settings → Pages → Source → GitHub Actions**, then **Actions → Check and publish → Run workflow** on `main`. Open the deployment URL reported by that run. Later pushes to `main` publish automatically after checks pass. Until Pages is configured, the workflow checks the project and skips publishing successfully; first setup does not require deployment.

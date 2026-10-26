@@ -21,3 +21,5 @@ The [passive-response coaching review](coaching-review-2026-10-25.md) tests repe
 The [full coached trial and rubric calibration](full-coached-trial-2026-10-25.md) preserves a fresh-clone setup failure, browser reload verification, and an explicitly simulated worked assessment.
 
 The [October 26 fresh SSH onboarding trial](https://kaw393939.github.io/218_spec/review/onboarding-2026-10-26.html) verifies both starter previews and records concise setup/mode fixes and test limits.
+
+The [October 26 full coached assignment trials](https://kaw393939.github.io/218_spec/review/full-assignments-2026-10-26.html) preserve fresh SSH copies, explicitly simulated learner responses, assistance and actual check/browser evidence. This optional instructor report distinguishes learner observations from tool-operated review and does not establish real learning outcomes.

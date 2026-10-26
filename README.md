@@ -8,7 +8,7 @@ This template starts with a working, deliberately neutral storefront. Your audie
 
 ## Start here
 
-1. Open [this template on GitHub](https://github.com/kaw393939/is117-brand-studio), select **Use this template → Create a new repository**, and create a **public** repository in your own account. A template copy does not copy the instructor's issues.
+1. Open [this template on GitHub](https://github.com/kaw393939/is117-brand-studio), select **Use this template → Create a new repository**, and create a **public** repository in your own account. Wait until the new repository shows its README before cloning. A template copy does not copy the instructor's issues.
 2. In your terminal, replace both placeholders with your account and new repository name:
 
    ```sh
@@ -20,7 +20,9 @@ This template starts with a working, deliberately neutral storefront. Your audie
 
    > Read AGENTS.md and SPEC.md. Help me get this running, then guide me through the brand studio one decision at a time.
 
-4. Let the agent check Node.js **22.16+ on the 22 LTS line (recommended), or 24+**, and npm, explain any setup problem, run `npm ci`, then start the site with `npm start`. Open [http://localhost:5173](http://localhost:5173) in your browser. Leave the server running while you work.
+4. Let the agent check Node.js **22.16+ on the 22 LTS line (recommended), or 24+**, and npm, explain any setup problem, run `npm ci`, then start development mode with `npm run dev`. Open [http://localhost:5173](http://localhost:5173) in your browser. Leave the server running while you work.
+
+Save an HTML, CSS, JavaScript, or asset file under `public/` to refresh the local browser automatically; unsaved edits do not appear. A refresh resets the temporary demo bag. `npm start` is an alias for this same development mode. Press **Ctrl+C** in the terminal to stop the server. If you only want a plain preview, use `npm run preview` and refresh the browser yourself after saving. These commands serve your local files; publishing to GitHub Pages is a later step.
 
 **First success checkpoint:** you can see the neutral white T-shirt page, choose a size, and add it to the demo bag. Tell the agent what you actually see. The bag is a demonstration; it does not take payments, persist between visits, or place orders.
 
@@ -37,7 +39,7 @@ You can adopt an AI suggestion. At the important choices, explain why it helps y
 3. **Compare two small previews.** See a modernist and a postmodernist hero using the **same product, headline, supporting copy, and action**. Each cites real design references and explains its visual decisions. Choose or adjust a direction before building the whole page.
 4. **Build the chosen slice.** Develop an original SVG logo; a simple wordmark is enough. Show it at small size and in one color; the same SVG can serve each presentation if it works. Apply the selected identity to the storefront and live style guide, sharing CSS variables and assets. Plan two truthful, useful applications of Cialdini's persuasion principles; explain how one actual page element helps your visitor. Do not invent reviews, scarcity, credentials, or product facts.
 5. **Check together.** The agent runs the prepared checks and reviews its work first, shows one actual check, and asks you to explain what it demonstrates. Then inspect the page in your own browser: describe the impression, try the keyboard, and look at a narrow/mobile view. Ask for help if something is unclear.
-6. **Keep a change you understand.** Save agreed decisions and actual evidence in [SPEC.md](SPEC.md), commit the checked change on its branch, and review its pull request with the agent. Revise anything that misses the intended meaning. Check the coach's short LEARNING.md summary for accuracy. You decide when to keep and merge it into `main`; tell the agent your decision. No outside class reviewer is required.
+6. **Keep a change you understand.** Save agreed decisions and actual evidence in [SPEC.md](SPEC.md). Review the coach's short LEARNING.md summary for accuracy before it is committed or pushed. Then commit the checked change on its branch and review its pull request with the agent. Revise anything that misses the intended meaning. You decide when to keep and merge it into `main`; tell the agent your decision. No outside class reviewer is required.
 
 You work at your own pace. There is no required class demonstration, quiz, separate reflection report, or extra bug-making task. The coach maintains the short learning record as you work. If you say “build it,” the agent can build the slice you have chosen; it still needs your reasons and browser observations before recording that evidence as complete.
 

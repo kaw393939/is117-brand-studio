@@ -21,3 +21,5 @@ These are human judgment descriptions, not automatic grades. The AI may point to
 LEARNING.md is a small AI-drafted record of task-relevant contributions available to the agent, not a transcript or an automatic recording system. It does not automatically include other chats or the desktop's conversation history. Quotes must be real; paraphrases and assistance must be labeled. Unavailable evidence stays pending. Neither the record nor passing checks alone proves authorship or understanding.
 
 Students can correct or remove excerpts before sharing. Keep personal details and secrets out: files committed to a public repository are public. Review the record for accuracy with the student; their approval confirms accuracy, not learning.
+
+For optional instructor calibration, see the [full coached trial and worked rubric example](full-coached-trial-2026-10-25.md); its learner contributions are role-play, not required student work.

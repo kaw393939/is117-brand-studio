@@ -1,8 +1,6 @@
 # Conversation evidence
 
-This short record is drafted by the AI from task-relevant conversation it can actually see. It does not automatically access or record other chats. It is not a transcript, an AI grade, or proof of understanding.
-
-Use brief actual student words or explicitly labeled paraphrases. Disclose hints, examples, and AI suggestions; “yes” is approval, not an explanation. Leave unavailable evidence pending. The student can correct or remove excerpts before sharing. Avoid personal details and secrets: this file will be public if committed to a public repository. Approving its accuracy does not establish understanding.
+AI-drafted task evidence, not a transcript or grade. This file may be public: review, correct or remove excerpts before commit/push. Use short actual quotes or labeled paraphrases and disclose help. Approval alone is not an explanation; leave missing evidence pending.
 
 - **Feature:** BRAND-001 — pending
 - **Date:** Pending
@@ -22,7 +20,5 @@ Use brief actual student words or explicitly labeled paraphrases. Disclose hints
 
 - **Work performed by AI:** Pending
 - **SPEC, issue/PR, actual checks and artifacts:** Pending
-
-Link existing evidence; do not duplicate the specification or full command log. Separate tool results, student reports, and simulated responses. Label coaching simulations as role-play.
 
 **Next step:** Pending

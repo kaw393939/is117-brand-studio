@@ -35,6 +35,8 @@ The README, studio overview and coach disclose one AI-drafted `LEARNING.md`. It 
 
 The [three-part rubric](assessment.md) considers explainable choices, a coherent truthful brand, and evidence-based checking/revision. The instructor reviews it with the actual project and may ask one concrete follow-up when evidence is unclear. An absent excerpt does not establish inability or misconduct.
 
+A separate file-writing check used a fresh SSH clone of candidate `faabad7`, on a local trial branch in the cleanup archive. An agent actually updated only LEARNING.md with a composite simulated fixture: a later audience explanation, an assisted test interpretation and an untried mobile view. Inspection confirmed context/provenance, pending accuracy review and an empty staging area. The first draft repeated too much text; the template and guidance were shortened and the agent produced a more compact record. No draft excerpts were committed or pushed, and no real learner data was used. The instructor template's LEARNING.md stays blank.
+
 ## Verification and limits
 
 Local `npm run check` passed formatting, HTML/CSS/JavaScript lint, four server cases and nine Chromium cases, including the changed overview at desktop/narrow widths. Computer Use inspected the student-facing notice. Subsequent prose-only changes receive formatting verification; PR/main CI and publication evidence are linked in the delivery PR for issue #6.

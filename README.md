@@ -20,13 +20,22 @@ This template starts with a working, deliberately neutral storefront. Your audie
 
    > Read AGENTS.md and SPEC.md. Help me get this running, then guide me through the brand studio one decision at a time.
 
-4. Let the agent check Node.js **22.16+ on the 22 LTS line (recommended), or 24+**, and npm, explain any setup problem, run `npm ci`, then start development mode with `npm run dev`. Open [http://localhost:5173](http://localhost:5173) in your browser. Leave the server running while you work.
+4. Let the agent check Node.js **22.16+ on the 22 LTS line (recommended), or 24+**, and npm, run `npm ci` and `npm run check`, and help with any setup errors before you change the starter.
+5. Return to the terminal you used to clone, still inside your repository, and run:
 
-Save an HTML, CSS, JavaScript, or asset file under `public/` to refresh the local browser automatically; unsaved edits do not appear. A refresh resets the temporary demo bag. `npm start` is an alias for this same development mode. Press **Ctrl+C** in the terminal to stop the server. If you only want a plain preview, use `npm run preview` and refresh the browser yourself after saving. These commands serve your local files; publishing to GitHub Pages is a later step.
+   ```sh
+   npm run dev
+   ```
+
+   Open the address printed by the server in your browser (normally `http://127.0.0.1:5173`). Leave this terminal running while you work. The agent can edit files and run checks in its separate project terminal.
+
+Save an HTML, CSS, JavaScript, or asset file under `public/` to refresh the local browser automatically; unsaved edits do not appear. A refresh resets the temporary demo bag. `npm start` is an alias for this same development mode. Press **Ctrl+C** in the terminal running the server to stop it. To switch to a plain preview, stop the server first, then use `npm run preview` and reopen its printed address. Refresh the browser yourself after saving. These commands serve your local files; publishing to GitHub Pages is a later step.
 
 **First success checkpoint:** you can see the neutral white T-shirt page, choose a size, and add it to the demo bag. Tell the agent what you actually see. The bag is a demonstration; it does not take payments, persist between visits, or place orders.
 
-If a command fails, paste the real error into the same chat. You can ask for a hint, an example, or a small recommendation at any time. You do not need to know the branding vocabulary first.
+If a command fails, paste the real error into the same chat. If the port is in use, let the agent help you stop your earlier preview or use `PORT=5175 npm run dev`, then open its printed address. You can ask for a hint, an example, or a small recommendation at any time. You do not need to know the branding vocabulary first.
+
+**Returning later:** reopen the same local clone and chat. Have the agent read SPEC.md and LEARNING.md to resume the next step. Check the server terminal first; if it is still running, use its printed address. Otherwise run `npm run dev` from your repository again, reusing any chosen `PORT` prefix. You normally do not need to clone or install dependencies again.
 
 ## Work one decision at a time
 
